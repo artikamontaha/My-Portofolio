@@ -28,8 +28,8 @@
                 <i class="fa-solid fa-bars md:hidden flex mr-10 mt-9"></i>
 
                 <ul class="hidden gap-3 md:flex">
-                    <li class="hover:bg-lime-300 px-8 py-4 rounded-lg font-bold cursor-pointer"><a>Home</a></li>
-                    <li class="hover:bg-lime-300 px-8 py-4 rounded-lg font-bold cursor-pointer"><a>About</a></li>
+                    <li id="Home_tag" class="hover:bg-lime-300 px-8 py-4 rounded-lg font-bold cursor-pointer"><a>Home</a></li>
+                    <li id="about_tag" class="hover:bg-lime-300 px-8 py-4 rounded-lg font-bold cursor-pointer"><a>About</a></li>
                     <li class="hover:bg-lime-300 px-8 py-4 rounded-lg font-bold cursor-pointer"><a>My work</a></li>
                     <li class="hover:bg-lime-300 px-8 py-4 rounded-lg font-bold cursor-pointer"><a>Content Me</a></li>
                 </ul>
@@ -47,7 +47,7 @@
                 <h1 class="text-blue-400 my-5 text-2xl  md:text-4xl font-bold">Hi There, I'm</h1>
                 <h1 class="text-black my-5 text-4xl md:text-7xl font-bold">Najifa Montaha <br> Artika</h1>
                 <h3 class="text-gray-500 my-5 text-2xl">I'm a Web developer and A web desinger...</h3>
-                <button class="btn btn-link border border-red-700">View More</button>
+                <button id="btn_link" class="btn btn-link border border-red-700">View More</button>
 
             </div>
         </div>
@@ -55,8 +55,7 @@
         <!-- header section end -->
     </header>
 
-    <footer>
-        <footer class="footer bg-blue-800 mt-16 text-base-content p-10">
+        <footer class="footer bg-blue-800 mt-16 text-base-content  p-10">
             <aside>
               <svg
                 width="50"
@@ -96,6 +95,7 @@
               <a class="link link-hover">Cookie policy</a>
             </nav>
           </footer>
-    </footer>
+
+          <script src="./js/home.js"></script>
 </body>
 </html>
