@@ -9,3 +9,7 @@ document.getElementById('btn_link').addEventListener('click', function(){
 document.getElementById('work_tag').addEventListener('click', function(){
     window.location.href = './work.html'
 })
+
+document.getElementById("content_tag").addEventListener('click', function(){
+    window.location.href = './content.html'
+})
